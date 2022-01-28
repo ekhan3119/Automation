@@ -33,14 +33,15 @@ public class practice {
 		 for (int i =0; i<sale.length; i++) {
 			 if(sale[i]> average) {
 				
-				System.out.println(sale[i]);
+				//System.out.println(sale[i]);
 			 }
 			 
+			 
 		 }
-		 
+		
 		 
 		//find the highest sale 
-		int  maxSale = 0;
+		int  maxSale = sale[0];
 		for (int i =0; i< sale.length; i++) {
 			if (sale[i]> maxSale) {
 				maxSale= sale[i];
