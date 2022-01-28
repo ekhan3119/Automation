@@ -30,6 +30,17 @@ public class ReverseStringPractice {
 		}
 		 System.out.println(rev);
 	}
+	
+	//Reverse String with string buffer class
+	
+	static void bufferString() {
+		String buff= "I am a string";
+		
+		StringBuffer sb = new StringBuffer(buff);
+		System.out.println(sb.reverse());
+	}
+
+	
 
 	public static void main(String[] args) {
 		
@@ -37,6 +48,9 @@ public class ReverseStringPractice {
 		solvingReverse();
 		
 		solutionTwo();
+		
+		bufferString();
+		
 		
 	}
 	
