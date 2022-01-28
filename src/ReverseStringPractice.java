@@ -5,14 +5,18 @@ public class ReverseStringPractice {
 		
 		String str = "fantistic";
 		
-		String rev="";
-		
 		int length = str.length();
 		
-		for (int i= length -1; i >=0; i--) {
-			rev += str.charAt(i);
+		String reverse = "";
+		
+		//reverse  the letter from the last index
+		
+		for (int i = length-1; i >=0; i--) {
+			reverse += str.charAt(i);
+			System.out.println(reverse);
 		}
-		System.out.println("Reverse string is: " + rev);
+		
+	
 		
 	}
 	
